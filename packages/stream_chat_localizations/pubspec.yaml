@@ -1,6 +1,7 @@
 name: stream_chat_localizations
 description: The Official localizations for Stream Chat Flutter, a service for building chat applications
 version: 2.1.0
+publish_to: none
 homepage: https://github.com/GetStream/stream-chat-flutter
 repository: https://github.com/GetStream/stream-chat-flutter
 issue_tracker: https://github.com/GetStream/stream-chat-flutter/issues
@@ -14,7 +15,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  stream_chat_flutter: ^3.4.0
+  stream_chat_flutter:
+    git:
+      url: https://github.com/indaband/stream-chat-flutter.git
+      path: packages/stream_chat_flutter
 
 dev_dependencies:
   dart_code_metrics: ^4.4.0
