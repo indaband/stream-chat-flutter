@@ -1079,7 +1079,7 @@ class MessageInputState extends State<MessageInput> {
                               return const SizedBox.shrink();
                             },
                           )
-                        : Container(),
+                        : const SizedBox(),
                   ],
                 ),
                 DecoratedBox(
